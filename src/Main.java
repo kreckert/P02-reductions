@@ -1,12 +1,17 @@
+import java.io.BufferedInputStream;
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(System.in);
-        String myString = scanner.next();
+        Scanner scanner = new Scanner(new BufferedInputStream(System.in));
+        StringBuilder str = new StringBuilder();
 
-        System.out.println(myString.length());
+        while (scanner.hasNext()) {
+            str.append(scanner.nextLine());
+        }
+
+        System.out.println(str.length());
     }
 }
