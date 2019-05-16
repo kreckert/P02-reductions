@@ -1,3 +1,3 @@
 #!/bin/bash
-javac SATtoThreeSAT.java
-java SATtoThreeSAT
+javac Main.java
+java Main
