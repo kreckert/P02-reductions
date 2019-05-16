@@ -4,6 +4,9 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("hello world 1");
+        Scanner scanner = new Scanner(System.in);
+        String myString = scanner.next();
+
+        System.out.println("hello");
     }
 }

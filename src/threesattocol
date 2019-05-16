@@ -1,3 +1,2 @@
 #!/bin/bash
-javac SATtoThreeSAT.java
-java SATtoThreeSAT
+echo no file yet
