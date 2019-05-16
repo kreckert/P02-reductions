@@ -7,6 +7,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String myString = scanner.next();
 
-        System.out.println("hello");
+        System.out.println(myString);
     }
 }
