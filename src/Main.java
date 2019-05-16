@@ -8,6 +8,5 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         System.out.println(inputString);
-        System.out.println("hello world 2");
     }
 }
